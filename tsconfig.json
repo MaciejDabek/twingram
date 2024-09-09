@@ -1,4 +1,11 @@
 {
+  "compilerOptions": {
+    // shadcn
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
   "files": [],
   "references": [
     {
